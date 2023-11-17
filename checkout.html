@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specks Kitchen</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file cdn link  -->
+    <link rel="stylesheet" href="css/style.css">
+	 <link rel="stylesheet" href="css/cart.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+   <a href="index.html" class="logo"> <img src="images/logo.png"></a>
+
+   
+
+    <div class="icons">
+      <a class="fas fa-search" id="search-btn"></a>
+      <a class="fas fa-moon" id="theme-btn"></a>
+      <a href="cart.html" class="fas fa-shopping-cart" id="login-btn"></a>
+      <a class="fas fa-bars" id="menu-btn"></a>
+  </div>
+
+    <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="categories.html">Category</a>
+        <a href="food.html">Food Menu</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+
+</header>
+
+<br><br><br><br><br><br>
+<div class="container">
+
+<section class="checkout-form">
+
+   <h1 class="heading">Delivering Info</h1>
+
+   <form action="" method="post">
+
+   <div class="display-order">
+      <span>Chocolate Cake, 1</span>
+      <span>Cupcake, 1</span>
+      <span>Local Drink, 1</span>
+      <span>Kitkat Cake, 1</span>
+      <span>Vanilla Cake, 1</span>
+      <span class="grand-total"> grand total : $24/- </span>
+   </div>
+   
+
+      <div class="flex">
+         <div class="inputBox">
+            <span>your name</span>
+            <input type="text" placeholder="enter your name" name="name" required>
+         </div>
+		 
+		  <div class="inputBox">
+            <span>city</span>
+            <input type="text" placeholder="e.g. Accra" name="city" required>
+         </div>
+		 
+         <div class="inputBox">
+            <span>your number</span>
+            <input type="number" placeholder="enter your number" name="number" required>
+         </div>
+		 
+		  <div class="inputBox">
+            <span>Nearest Landmark</span>
+            <input type="text" placeholder="e.g. Teshie." name="flat" required>
+         </div>
+		 
+         <div class="inputBox">
+            <span>your email</span>
+            <input type="email" placeholder="enter your email" name="email" required>
+         </div>
+       
+		  <div class="inputBox">
+            <span>payment method</span>
+            <select name="method">
+               <option value="cash on delivery" selected>Cash on delivery</option>
+               <option value="paypal">Ghanaian Mobile Money</option>
+            </select>
+         </div>
+      </div>
+      <input type="submit" value="order now" name="order_btn" hidden>
+      <a href="summary.html" class="btn">ORDER NOW</a>
+   </form>
+
+</section>
+
+</div>
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+   <div class="box-container">
+
+       <div class="box" data-aos="fade-up">
+           <h3>our branches</h3>
+           <a href="#"> <i class="fas fa-map-marker-alt"></i> Accra </a>
+           <a href="#"> <i class="fas fa-map-marker-alt"></i> Tema </a>
+           <a href="#"> <i class="fas fa-map-marker-alt"></i> Teshie </a>
+       </div>
+
+       <div class="box" data-aos="fade-up">
+           <h3>quick links</h3>
+           <a href="#"> <i class="fas fa-chevron-right"></i> home </a>
+           <a href="#"> <i class="fas fa-chevron-right"></i> Experience flavours </a>
+           <a href="#"> <i class="fas fa-chevron-right"></i> Food Menu </a>
+           <a href="#"> <i class="fas fa-chevron-right"></i> review </a>
+           <a href="#"> <i class="fas fa-chevron-right"></i> contact </a>
+       </div>
+
+       <div class="box" data-aos="fade-up">
+           <h3>contact info</h3>
+           <a href="#"> <i class="fas fa-phone"></i> +233202316142 </a>
+           <a href="#"> <i class="fas fa-phone"></i> +233505334266 </a>
+           <a href="#"> <i class="fas fa-envelop"></i> speckskitchen@gmail.com </a>
+           <a href="#"> <i class="fas fa-map-marker-alt"></i>Accra, Teshie</a>
+       </div>
+
+       <div class="box" data-aos="fade-up">
+           <h3>follow us</h3>
+           <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+           <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+           <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+          
+          
+       </div>
+
+   </div>
+
+   <div class="credit"> created by <span>Scholar Studio</span> | all rights reserved </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+<script>
+
+AOS.init({
+   duration:800,
+   delay:400
+});
+
+</script>
+
+</body>
+</html>
